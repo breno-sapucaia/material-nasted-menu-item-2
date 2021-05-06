@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"No units tests.\"",
     "build": "pika build",
-    "publish": "pika publish",
+    "publish": "pika publish --any-branch",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "version": "npm run build"
